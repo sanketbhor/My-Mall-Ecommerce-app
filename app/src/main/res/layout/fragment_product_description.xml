@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescriptionFragment">
+
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India’s favourite Masala Noodles, MAGGI 2-minute Noodles, now comes with the goodness of Iron. Each portion (70g) of MAGGI Masala Noodles provides you with 15% of your daily Iron requirement (*as per the Daily Dietary Allowances for an Adult Sedentary Male (ICMR 2010). Containing your favourite masala taste, MAGGI noodles are made with the choicest quality spices. Make your bowl of MAGGI even better by chopping up some vegetables, dropping in an egg or throwing in your favourite ingredients."
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="16dp"/>
+</FrameLayout>

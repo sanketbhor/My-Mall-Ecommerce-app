@@ -1,0 +1,2 @@
+com/example/mymall/ExampleUnitTest.java
+ com.example.mymall.ExampleUnitTest

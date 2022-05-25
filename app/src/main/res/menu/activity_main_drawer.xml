@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_my_mall"
+            android:title="My Mall" />
+        <item
+            android:id="@+id/nav_fruits"
+            android:title="Fruits" />
+        <item
+            android:id="@+id/nav_beverages"
+            android:title="Beverages " />
+        <item
+            android:id="@+id/nav_dairy_and_bakery"
+            android:title="Dairy &amp; Bakery" />
+        <item
+            android:id="@+id/nav_snacks_and_branded_foods"
+            android:title="Snacks &amp; Branded Foods " />
+        <item
+            android:id="@+id/nav_beauty_and_hygiene"
+            android:title="Beauty &amp; Hygiene" />
+        <item
+            android:id="@+id/nav_kitchen_staples"
+            android:title="Kitchen Staples " />
+        <item
+            android:id="@+id/nav_baby_care"
+            android:title="Baby Care" />
+        <item
+            android:id="@+id/nav_pet_care"
+            android:title="Pet care" />
+
+        <item
+            android:id="@+id/nav_my_orders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:title="My Cart" />
+        <item
+                android:id="@+id/nav_wishlist"
+                android:title="My Wishlist" />
+        <item
+                android:id="@+id/nav_account"
+                android:title="My Account" />
+        <item
+                android:id="@+id/nav_sign_out"
+                android:title="Sign Out" />
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/product_details_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="3dp"
+    android:background="@color/colorAccent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/product_details_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Product Details"
+        android:background="#d4d4d4"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_details_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Noodles: Refined Wheat Flour (maida), Palm Oil, Salt, Wheat Gluten, Thickeners (508 &amp; 412), Acidity Regulators (501(i) &amp; 500(i)) And Humectant (451(i)
+
+               Masala Tastemaker:Hydrolysed Groundnut (peanut) Protein, Mixed Spices {(23.6%)(dehydrated Onion, Coriander Powder, Red Chilli Powder(3%), Turmeric Powder, Dried Garlic (2.5%), Cumin Powder, Aniseed Powder, Fenugreek Powder, Ginger Powder, Black Pepper Powder (0.4%), Clove Powder (0.1%), Green Cardamom Powder (0.1%) &amp; Nutmeg Powder)}, Noodle Powder {refined Wheat Flour (maida), Palm Oil, Salt, Wheat Gluten, Thickeners (508 &amp; 412), Acidity Regulators (501(i) &amp; 500(i)) &amp; Humectant (451(i))}, Sugar, Edible Starch, Palm Oil, Thickener (508), Caramel Salt Mix {salt, Colour (150d) &amp; Palm Oil}, Acidity Regulators (330 &amp; 500(ii)), Salt, Flavour Enhancer (635) And Mineral (ferric Pyrophosphate)."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_details_title"
+        app:layout_constraintVertical_bias="0.503" />
+</androidx.constraintlayout.widget.ConstraintLayout>
